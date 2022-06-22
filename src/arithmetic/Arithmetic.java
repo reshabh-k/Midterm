@@ -30,6 +30,7 @@ public class Arithmetic
         int m= in.nextInt();
         double result = r.calculate(m,n);
         System.out.println("result :" +result); 
+        
     
     }
 }
