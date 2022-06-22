@@ -31,16 +31,16 @@ public class ArithmeticBase
         String s= sc.next();
         
         
-        if(s==Value.PLUS.toString()){
+        if(s.equals(Value.PLUS.toString())){
             return total = x+y;
         }
-         if(s==Value.MINUS.toString()){
+         if(s.equals(Value.MINUS.toString())){
            return total = x-y;
         }
-         if(s==Value.TIMES.toString()){
+         if(s.equals(Value.TIMES.toString())){
             return total = x*y;
         }
-         if(s==Value.DIVIDE.toString()){
+         if(s.equals(Value.DIVIDE.toString())){
            return total = x/y;
         }
 //        Value[] operations = Value.values();
